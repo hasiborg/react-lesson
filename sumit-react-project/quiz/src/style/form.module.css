@@ -15,14 +15,9 @@
 }
 
 /* signup component */
-.signup {
-  height: 500px;
-}
 
 /* login component */
-.login {
-  height: 330px;
-}
+
 
 @media only screen and (max-width: 600px) {
   .form {

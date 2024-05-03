@@ -24,8 +24,8 @@ export default function Result() {
 					<h1>Question Analysis</h1>
 					<h4>You answerd 5 out of 10 questions correctly</h4>
 					<Question question={'How many legs has a cow ?'} />
-					<Question />
-					<Question />
+					<Question question={'How many legs has a cow ?'} />
+					<Question question={'How many legs has a cow ?'} />
 				</div>
 			</div>
 		</>

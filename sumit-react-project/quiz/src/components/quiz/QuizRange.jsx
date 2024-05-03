@@ -13,7 +13,7 @@ const QuizRange = ({ percentage }) => {
 					<div className={classes.progress}></div>
 				</div>
 			</div>
-			<a href='result.html'>
+			<a href='result'>
 				<button className={classes.next}>
 					{/* <span>Next Question</span> */}
 					<span className='material-icons-outlined'>

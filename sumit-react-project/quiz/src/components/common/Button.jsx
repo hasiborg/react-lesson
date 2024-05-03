@@ -1,7 +1,8 @@
 import Classes from '../../style/button.module.css';
-export default function Button({ text }) {
+// eslint-disable-next-line react/prop-types
+export default function Button({ text,...btnPro }) {
 	return (
-		<button className={Classes.button}>
+		<button {...btnPro} className={Classes.button}>
 			<span>{text}</span>
 		</button>
 	);
